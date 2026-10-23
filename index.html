@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Get help with PeraNora, the local-first personal finance tracker."
+    />
+    <title>PeraNora Support</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #173a38;
+        background: #f6f8f6;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        line-height: 1.55;
+      }
+
+      main {
+        width: min(100% - 32px, 760px);
+        margin: 0 auto;
+        padding: 56px 0 72px;
+      }
+
+      .hero {
+        padding: 32px;
+        border-radius: 24px;
+        color: #ffffff;
+        background: linear-gradient(135deg, #0e7772, #125d5a);
+      }
+
+      h1, h2 { line-height: 1.2; }
+
+      h1 { margin: 0 0 12px; font-size: clamp(2rem, 7vw, 3.25rem); }
+
+      h2 { margin-top: 0; font-size: 1.25rem; }
+
+      .hero p { margin: 0; max-width: 38rem; font-size: 1.1rem; }
+
+      .card {
+        margin-top: 24px;
+        padding: 28px;
+        border: 1px solid #dfe8e4;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0 10px 30px rgba(23, 58, 56, 0.06);
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 12px 18px;
+        border-radius: 10px;
+        color: #ffffff;
+        font-weight: 700;
+        text-decoration: none;
+        background: #0e7772;
+      }
+
+      .button:hover, .button:focus { background: #0a625e; }
+
+      ul { padding-left: 1.25rem; }
+
+      a { color: #0b625e; }
+
+      .notice {
+        margin: 20px 0 0;
+        padding: 14px;
+        border-radius: 12px;
+        color: #5f4210;
+        background: #fff8e8;
+      }
+
+      footer {
+        margin-top: 28px;
+        color: #55716f;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <h1 id="page-title">PeraNora Support</h1>
+        <p>Help for PeraNora, the local-first personal finance tracker.</p>
+      </section>
+
+      <section class="card">
+        <h2>Need help?</h2>
+        <p>
+          Open a support request and include your device model, iOS version, PeraNora app version,
+          and a short description of what happened.
+        </p>
+        <a class="button" href="https://github.com/vincentpaulb/peranora-legal/issues/new">
+          Open a support request
+        </a>
+        <p class="notice">
+          Do not include your transactions, receipt images, PIN, backups, or other financial data in a support request.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Common questions</h2>
+        <ul>
+          <li>Your finance data is stored on your device.</li>
+          <li>Use the export features before changing devices or resetting local data.</li>
+          <li>You can manage camera, photo library, notification, and Face ID permissions in iOS Settings.</li>
+          <li>Receipt scanning suggestions should always be reviewed before saving a transaction.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Privacy</h2>
+        <p>
+          Read the <a href="./PRIVACY_POLICY.md">PeraNora Privacy Policy</a> to learn how the app handles information.
+        </p>
+      </section>
+
+      <footer>© 2026 PeraNora</footer>
+    </main>
+  </body>
+</html>
